@@ -1,12 +1,14 @@
 body {
     margin: 0;
     max-width: 100% !important;
+    font-family: 'Neue Helvetica', sans-serif;
     overflow-x: hidden;
 }
 
 .p1-img-div img {
     height: 0;
     min-height: 100%;
+    max-width: 100vw;
 }
 
 .container {
@@ -15,7 +17,7 @@ body {
 }
 
 .full {
-    height: 99vh;
+    height: 90vh;
 }
 
 .p1-wrapper {
@@ -33,7 +35,6 @@ body {
 
 .p1-text {
     text-align: center;
-    font-family: 'Neue Helvetica', sans-serif;
 }
 
 .ilustra-bold {
@@ -65,70 +66,54 @@ body {
 
 .p2-wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 5vh;
 }
 
-.p2-upper {
-    display: flex;
-}
-
-.p2-upper-img {
+.p2-img {
     flex: 0 0 50%;
     padding: 0 10px 0 0px;
 }
 
-.p2-upper-img img {
+.p2-img img {
     width: 0;
     min-width: 100%;
     max-height: 100%;
 }
 
-.p2-upper-text {
-    font-family: 'Neue Helvetica', sans-serif;
+.p2-text {
     font-weight: 300;
     flex-grow: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding-bottom: 30px;
+    justify-content: center;
 }
 
-.p2-upper-text p {
+.p2-text p {
     margin: 5px 0;
 }
 
-.p2-upper-text h3 {
+.p2-text h3 {
     font-weight: 500;
 }
 
-.p2-lower {
-    width: 100vw;
-    overflow-x: hidden;
-}
-
-.p2-lower {
-    margin-top: -100px;
-    margin-left: 10px;
-}
-
-.p2-lower img {
+.p3 {
+    width: 100%;
     height: 60vh;
+    margin-top: -90px;
+    background-image: url("img/pez.png");
+    background-position: 20px center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin-left: auto;
 }
 
-.p3-wrapper {
+.p4 {
     width: 90%;
     margin: 0 auto;
     margin-top: -50px;
-}
-
-.p3-text {
-    font-family: 'Neue Helvetica', sans-serif;
     font-weight: 300;
 }
 
-.p3-text h3 {
+.p4 h3 {
     font-weight: 500;
 }
 
@@ -136,29 +121,78 @@ body {
     position: relative;
 }
 
-.p4-image {
-    display: flex;
-    align-items: center;
-}
-
-.p4-image img {
-    margin: 0 auto;
-    max-width: 90vw;
-}
-
 .p4-title {
-    font-family: 'Neue Helvetica', sans-serif;
     font-weight: 300;
     position: absolute;
-    top: 40%;
+    top: 50%;
     width: 100vw;
     text-align: center;
     background-color: white;
-    padding: 10px 0 5px 0;
+    padding: 5px 0 2px 0;
     letter-spacing: 2px;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .p4-title-bold {
     font-weight: 700;
+}
+
+.p4-image {
+    width: 100%;
+    height: 120vh;
+    background-image: url(img/tropinota_iec.jpg);
+    background-position: -60vw center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.p6 {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.p6 img {
+    width: 110%;
+}
+
+.p7 {
+    text-align: right;
+    margin-right: 5vw;
+    margin-bottom: -90px;
+}
+
+.p7 h3 {
+    margin-bottom: 5px;
+}
+
+.p7 p {
+    font-size: 1.2rem;
+    margin: 7px 0;
+}
+
+.p8 {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.p8-1 {
+    width: 100%;
+    align-self: flex-end;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.p9 {
+    margin-top: 5vh
+}
+
+.p9 img {
+    width: 100%;
 }
