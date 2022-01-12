@@ -1,9 +1,12 @@
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 // gsap.defaults({
 //     ease: "none",
 //     duration: 1
 // })
+
+// const animation1 = gsap.timeline();
+// animation1.from("#text-ilu", { y: 500 });
 
 // const animation1 = gsap.timeline();
 // // animation1.from(".p2-img", { y: 50})
