@@ -1,23 +1,58 @@
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 // gsap.defaults({
-//     ease: "none",
+//     ease: "power2",
 //     duration: 1
 // })
 
 // const animation1 = gsap.timeline();
-// animation1.from("#text-ilu", { y: 500 });
 
-// const animation1 = gsap.timeline();
-// // animation1.from(".p2-img", { y: 50})
-// animation1.from(".p2-text", { opacity: 0, y: 100})
-// animation1.from(".p3", {width: "0%"})
+// animation1.to({}, 1, {},  "o");
+
+// animation1.fromTo("#text-ilu", { 
+//     y: "50vw",
+//     opacity: 0,
+//  }, { 
+//      y: "50vw",
+//      opacity: 1 
+//     });
+
+// animation1.to({}, 1, {},  "o");
+
+// animation1.from("#text-hola", {
+//     y: "50vw"
+// }, "a");
+
+// animation1.to("#text-ilu", {
+//     y: 0
+// }, "a");
+
+// animation1.from(".hola-img", {
+//     "background-position-x": "100vw"
+// });
+
+// animation1.from(".instagram", {
+//     opacity: 0
+// })
+
+// animation1.to({}, 0.5, {});
+
 
 // ScrollTrigger.create({
 //     animation: animation1,
-//     trigger: "#animation-1",
-//     start: "top top",
-//     scrub: true,
+//     trigger: ".hola",
+//     end: "+=4000",
+//     snap: {
+//         snapTo: [1],
+//         delay: 0,
+//         ease: "none",
+//         inertia: false,
+//         duration: {
+//             min: 0.2,
+//             max: 4
+//         }
+//     },
 //     pin: true,
-//     markers: true
+//     scrub: true,
+//     // markers: true,
 // })
